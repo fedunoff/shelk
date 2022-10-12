@@ -13,12 +13,12 @@ class FlutterTutorialApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Фотостудия Шелк"),
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.black87,
         ),
         body: RichText(
           text: const TextSpan(
             style: TextStyle(
-              fontSize: 20.0,
+              fontSize: 60.0,
               fontStyle: FontStyle.italic,
               color: Colors.black,
               fontFamily: "loraR",
@@ -28,10 +28,10 @@ class FlutterTutorialApp extends StatelessWidget {
               TextSpan(
                 style: TextStyle(color: Colors.red),
                 children: <TextSpan>[
-                  TextSpan(text: "Brave "),
-                  TextSpan(text: "new "),
+                  TextSpan(text: "Как"),
+                  TextSpan(text: "Дела? "),
                   TextSpan(
-                    text: "world",
+                    text: "Пупсик",
                     style: TextStyle(
                       decoration: TextDecoration.underline,
                     ),
